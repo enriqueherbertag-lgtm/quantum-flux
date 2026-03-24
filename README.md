@@ -65,5 +65,10 @@ Apache 2.0 con restricción de uso comercial.
 
 ## Autor
 
-Enrique Aguayo H. — eaguayo@migst.cl  
+Enrique Aguayo H.
 Investigador independiente, Mackiber Labs
+Contacto: eaguayo@migst.cl
+ORCID: 0009-0004-4615-6825
+GitHub: @enriqueherbertag-lgtm
+
+
