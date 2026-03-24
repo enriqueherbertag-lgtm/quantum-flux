@@ -1,48 +1,53 @@
-Quantum-Flux Bridge
+# Quantum-Flux / Tenebra Link
 
-**Protocolo Open-Source de Mejoramiento de Enlace para Comunicaciones Críticas**
+**Cables get cut. We don't.**
 
----
+## ¿Qué es esto?
 
-## Misión
-Proveer comunicaciones estables en zonas remotas mediante protocolos inteligentes que optimicen enlaces débiles o intermitentes, garantizando disponibilidad y resiliencia en entornos de baja conectividad.
+Quantum-Flux es un software que convierte enlaces satelitales comunes en **enlaces ultra-resilientes**. Fragmenta los datos en **10 flujos paralelos**, los distribuye sobre satélites comerciales existentes (Starlink, Hispasat, Intelsat, etc.) con corrección de errores (FEC), y los recombina en destino.
 
----
+Si 2 o 3 flujos fallan (por clima, sabotaje o fallo técnico), **el enlace sigue funcionando sin pérdida de datos**.
 
-## Características
-- **Multipath routing dinámico:** Distribuye el tráfico a través de múltiples rutas para maximizar la estabilidad.
-- **Compresión adaptativa:** Ajusta automáticamente el nivel de compresión según el tipo de dato (audio, video, texto, etc.).
-- **Forward Error Correction (FEC) personalizable:** Permite configurar la corrección de errores según las necesidades del entorno.
-- **Priorización inteligente de tráfico:** Asigna ancho de banda de forma dinámica según la criticidad de los datos.
-- **Bajo consumo de recursos:** Optimizado para ejecutarse en hardware limitado (Raspberry Pi, routers embebidos, etc.).
-- **API simple para integración:** Interfaz RESTful y SDK en Python para fácil adopción en proyectos existentes.
+## ¿Por qué existe?
 
----
+Los cables submarinos se cortan. En 2024-2026, decenas de cables críticos fueron dañados en el Báltico, Mar Rojo y Taiwán — muchos en circunstancias sospechosas. Gobiernos, bancos e infraestructura crítica necesitan una alternativa que **no dependa del fondo del mar**.
 
-## Casos de Uso
-1. **Emergencias:** Comunicación confiable cuando fallan redes tradicionales.
-2. **Telemedicina rural:** Transmisión estable de datos médicos en tiempo real.
-3. **Agricultura IoT:** Conexión de sensores en campos remotos con cobertura intermitente.
-4. **Educación a distancia:** Video/audio fluido incluso en conexiones de baja calidad.
-5. **Complemento ideal** para sistemas como Hidro-H y otras soluciones de conectividad rural.
+## Arquitectura
 
----
+El software se ejecuta en servidores en los puntos de entrada/salida (gateways de operadores satelitales). **No necesita infraestructura nueva**.
 
-## Instalación
+- **Fragmentación:** divide los datos en 10 flujos independientes.
+- **FEC:** añade redundancia para corregir errores sin retransmitir.
+- **Balanceo dinámico:** asigna más carga a los flujos con mejor calidad.
+- **Recombinación:** une los flujos y entrega el flujo original.
 
-### Requisitos previos
-- Python 3.8 o superior
-- `pip` actualizado
-- Acceso a terminal/bash
+## Estado actual
 
-### Pasos de instalación
-```bash
-# Clonar el repositorio
-git clone https://github.com/enriqueherbertag-igtm/quantum-flux-bridge.git
-cd quantum-flux-bridge
+✅ Concepto definido  
+✅ Arquitectura documentada  
+✅ Algoritmos especificados  
+🔲 Prototipo en desarrollo  
+🔲 Simulación de fallos  
+🔲 Prueba piloto con operador satelital
 
-# Instalar dependencias
-pip install -r requirements.txt
+## Modelo de negocio
 
-# Ejecutar configuración inicial
-python setup.py install
+Arriendo de enlace resiliente como servicio mensual a clientes que no pueden permitirse caídas:
+- Gobiernos y defensa
+- Bancos e instituciones financieras
+- Infraestructura crítica (energía, minería, data centers)
+
+## Proyecto hermano
+
+**Goliat-Orbital** — captura y reciclaje de basura espacial.  
+[Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
+
+## Licencia
+
+Apache 2.0 con restricción de uso comercial.  
+*Este es un framework base open-source. Funciona con los algoritmos probados. El que quiera más precisión, menor latencia o features avanzadas… que lo modifique y contribuya.*
+
+## Autor
+
+Enrique Aguayo H. — eaguayo@migst.cl  
+Investigador independiente, Mackiber Labs
