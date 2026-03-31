@@ -2,6 +2,11 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/707b1759-07a4-4211-90c4-2d9e72595e26" />
+
+
+
+
 **Cables get cut. We don't.**
 
 ## El Talón de Aquiles de Internet
