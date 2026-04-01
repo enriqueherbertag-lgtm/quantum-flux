@@ -1,8 +1,8 @@
 # Quantum-Flux
 
-
+[
 <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/707b1759-07a4-4211-90c4-2d9e72595e26" />
-
+](https://zenodo.org/records/19358417)
 
 
 
