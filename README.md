@@ -1,6 +1,5 @@
 # Quantum-Flux
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/707b1759-07a4-4211-90c4-2d9e72595e26" />
 
@@ -64,6 +63,22 @@ Vendemos **ancho de banda resiliente garantizado** como servicio mensual. El cli
 **Goliat-Orbital** — captura y reciclaje de basura espacial.  
 Convierte fragmentos orbitales en lingotes reutilizables.  
 [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
+
+
+## Licencia
+
+Copyright © 2026 Enrique Aguayo. Todos los derechos reservados.
+
+Este proyecto está protegido por derechos de autor.  
+**Uso no comercial** (educativo o de investigación) está permitido siempre que se dé crédito al autor.
+
+**Uso comercial** (incluyendo ofrecerlo como servicio, SaaS, o integrarlo en productos que generen ingresos) **requiere autorización expresa** del autor.
+
+Para licencias empresariales, soporte o consultas comerciales, contacta a:  
+**[eaguayo@migst.cl](mailto:eaguayo@migst.cl)**
+
+Ver archivo [LICENSE](LICENSE) para términos completos.
+
 
 ## Autor
 
