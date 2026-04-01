@@ -65,11 +65,6 @@ Vendemos **ancho de banda resiliente garantizado** como servicio mensual. El cli
 Convierte fragmentos orbitales en lingotes reutilizables.  
 [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
 
-## Licencia
-
-Apache 2.0 con restricción de uso comercial.  
-*Este es un framework base open-source. Funciona con los algoritmos probados. El que quiera más precisión, menor latencia o features avanzadas… que lo modifique y contribuya.*
-
 ## Autor
 
 Enrique Aguayo H.
