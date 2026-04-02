@@ -1,7 +1,7 @@
 # Quantum-Flux: Comunicaciones que sobreviven al corte de cables submarinos
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19358417.svg)](https://doi.org/10.5281/zenodo.19358417)
-[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19358417.svg)](https://doi.org/10.5281/zenodo.19358417)
+[[License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 
 En un mundo cada vez más dependiente de internet, los cables submarinos que conectan continentes enteros son vulnerables. Un corte intencional, accidental o por desastres naturales puede dejar a países, bancos, hospitales o sistemas de defensa sin comunicación durante días o semanas.
 
