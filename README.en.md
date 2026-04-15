@@ -45,6 +45,13 @@ We sell guaranteed resilient bandwidth as a monthly service. The customer does n
 - Failure simulation (pending)
 - Pilot test with satellite operator (pending)
 
+
+# Installation
+pip install reedsolo
+
+# Execution
+python simulator.py
+
 ## Related projects
 
 - Goliat-Orbital — space debris capture and recycling
