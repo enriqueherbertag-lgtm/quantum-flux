@@ -6,7 +6,6 @@
 
 En un mundo cada vez más dependiente de internet, los cables submarinos que conectan continentes enteros son vulnerables. Un corte intencional, accidental o por desastres naturales puede dejar a países, bancos, hospitales o sistemas de defensa sin comunicación durante días o semanas.
 
-**Quantum-Flux nace para resolver este problema.**
 
 ## Que hace
 
