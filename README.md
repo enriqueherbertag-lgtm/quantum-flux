@@ -45,11 +45,13 @@ Vendemos ancho de banda resiliente garantizado como servicio mensual. El cliente
 - Prueba piloto con operador satelital (pendiente)
 
 
+```bash
 # Instalación
 pip install reedsolo
 
 # Ejecución
 python simulator.py
+```
 
 
 ## Proyectos relacionados
