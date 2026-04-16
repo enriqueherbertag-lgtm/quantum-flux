@@ -46,11 +46,13 @@ We sell guaranteed resilient bandwidth as a monthly service. The customer does n
 - Pilot test with satellite operator (pending)
 
 
+```bash
 # Installation
 pip install reedsolo
 
 # Execution
 python simulator.py
+```
 
 ## Related projects
 
